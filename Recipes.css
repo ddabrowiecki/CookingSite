@@ -3,25 +3,47 @@ body {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 25px;
 }
-
-h1 {
-	display:inline;
+/* Don't forget to list all the other browsers!!!*/
+.top_section {
+	background-color: rgba(0,0,0,1);
+	top: 0px;
 }
 
 .header {
-	background-color: rgba(219,179,0,.5);
+	border-radius: 100px 50px 100px 50px;
+	background-image: url("https://m.media-amazon.com/images/S/aplus-seller-content-images-us-east-1/ATVPDKIKX0DER/A3TZGH522SVGK2/B01JSQEY9E/7FdEKZeRAaO._UX906_TTW__.jpg");
+	background-color: rgba(0,0,0,1);
+	background-repeat: no-repeat;
+	background-position: center;
+	top: 0px;
+	height: 400px;
+	width: 900px;
+	margin: 0 auto;
 }
 
-.logo {
+h1 {
 	text-align: center;
+	background-color: rgba(219,179,192,.6);
+	color: rgba(165,13,13,1);
+	font-size: 70px;
+	font-family: 'Satisfy', cursive;
+	padding: 60px 0 0 0;
+	border-radius: 60%;
+	width: 350px;
+	margin: 0 auto;
 }
 
 .menu {
-	display: inline;
+	display: table;
+	/*position: relative;*/
+	top: 400px;
+	margin: 0 auto;
 }
 
-ul {
+li {
 	display: inline;
+	padding: 40px;
+	
 }
 
 h2 {
@@ -30,7 +52,7 @@ h2 {
 }		
 
 .chicken {
-	padding: 0 0 100px 0;
+	top: 500px;
 }
 
 .chicken_img {
