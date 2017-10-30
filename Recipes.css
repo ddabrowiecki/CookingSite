@@ -3,14 +3,22 @@ body {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 25px;
 }
-/* Don't forget to list all the other browsers!!!*/
+
+a:link {
+	color: rgba(165,13,13,1);
+}
+
+a:visited {
+	color: rgba(0,0,0,1);
+}
+
 .top_section {
 	background-color: rgba(0,0,0,1);
 	top: 0px;
 }
 
 .header {
-	border-radius: 100px 50px 100px 50px;
+	border-radius: 150px 50px 150px 50px;
 	background-image: url("https://m.media-amazon.com/images/S/aplus-seller-content-images-us-east-1/ATVPDKIKX0DER/A3TZGH522SVGK2/B01JSQEY9E/7FdEKZeRAaO._UX906_TTW__.jpg");
 	background-color: rgba(0,0,0,1);
 	background-repeat: no-repeat;
@@ -35,7 +43,6 @@ h1 {
 
 .menu {
 	display: table;
-	/*position: relative;*/
 	top: 400px;
 	margin: 0 auto;
 }
@@ -43,24 +50,25 @@ h1 {
 li {
 	display: inline;
 	padding: 40px;
-	
 }
 
 h2 {
 	font-size: 40px;
-	margin: 100px 0 0 0;
 }		
 
 .chicken {
 	top: 500px;
+	width: 1000px;
+	float: left;
 }
 
 .chicken_img {
-	float: right;
+	float: left;
 }
 
 .pesto {
-	padding: 0 0 100px 0;
+	float: left;
+	width: 1000px;
 }
 
 .pesto_img {
@@ -68,7 +76,8 @@ h2 {
 }
 
 .gorg {
-	padding: 0 0 100px 0;
+	float: left;
+	width: 900px;
 }
 
 .gorg_img {
