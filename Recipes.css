@@ -58,17 +58,17 @@ h2 {
 
 .chicken {
 	top: 500px;
-	width: 1000px;
 	float: left;
+	max-width: 900px;
 }
 
 .chicken_img {
-	float: left;
+	float: right;
 }
 
 .pesto {
-	float: left;
-	width: 1000px;
+	float: right;
+	max-width: 900px;
 }
 
 .pesto_img {
@@ -77,7 +77,7 @@ h2 {
 
 .gorg {
 	float: left;
-	width: 900px;
+	max-width: 900px;
 }
 
 .gorg_img {
